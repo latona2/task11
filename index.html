@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Генератор случайных пользователей</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+</head>
+<body><center>
+<div class="container">
+
+
+<!-- <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+  <li class="nav-item" role="presentation">
+    <a class="nav-link active" id="pills-male-tab" data-toggle="pill" href="#pills-male" role="tab" aria-controls="pills-male" aria-selected="true">Мужчина</a>
+  </li>
+  <li class="nav-item" role="presentation">
+    <a class="nav-link" id="pills-female-tab" data-toggle="pill" href="#pills-female" role="tab" aria-controls="pills-female" aria-selected="false">Женщина</a>
+  </li>
+
+</ul> -->
+<div class="tab-content" id="pills-tabContent">
+	<div class="tab-pane fade show active" id="pills-male" role="tabpanel" aria-labelledby="pills-male-tab">
+		<div class="col">
+			<br><br><br>
+			<h3 class="card-title"><span id="surnameOutput">Иванов</span> <span id="firstNameOutput">Иван</span></h3><br>
+			
+			 <i><span id="genderOutput">мужчина</span></i>
+             <br> <br>
+             <b>год рождения:</b> <span id="birthYearOutput">2000 </span> <br>
+			 <b>профессия:</b> <span id="work">повар</span>
+			 <br><br><br>
+			
+			<button type="button"id="generate"  class="btn btn-danger btn-lg">Сгенирировать</button><br><br>
+			<button type="button" id="clear" class="btn btn-secondary btn-lg">Очистить</button>
+						
+		</div>
+	 </div>
+
+	<!-- <div class="tab-pane fade" id="pills-female" role="tabpanel" aria-labelledby="pills-female-tab">
+		 <div class="col">
+			 <h3 class="card-title"><span id="surnameOutput">Иванова</span> <span id="firstNameFemale">Клава</span></h3><br>
+			 <button type="button" onclick="return ChangeWomenName(this);"class="btn btn-danger btn-lg">Сгенирировать</button>
+		</div>
+	</div> -->
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+</div></center>
+<script src="personGenerator.js"></script>
+<script src="init.js"></script>
+</body>
+</html>
